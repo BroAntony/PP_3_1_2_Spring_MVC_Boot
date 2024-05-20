@@ -2,14 +2,13 @@ package orgexample.dao;
 
 import org.springframework.stereotype.Repository;
 import orgexample.model.User;
-
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.PersistenceContext;
-import jakarta.transaction.Transactional;
 import java.util.List;
 
 
-@Transactional
+
+
 @Repository
 public class UserDao implements IUserDao {
 
